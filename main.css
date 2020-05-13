@@ -1,0 +1,339 @@
+html, body {
+ height:100%;
+ padding:0;
+ margin:0;
+}
+
+.black {background-color: #1c2d56;}
+.orange {color:orange;}
+.blue {color: blue;}
+
+.menu div {height: 5px; background:white;margin: 5px 0 0 0;transition: .3s;}
+.menu { margin-left: 8%; display: black;width: 50px;}
+.navbar { display: flex; position: relative;justify-content: space-between;align-items: center;background-color: #1c2d56;color: white;}
+.one {width: 50px; margin-left: 8%;}
+.two {width: 30px;margin-left: 8%}
+p{color: white;margin-left: 8%}
+.menu:hover div  {background:orange;}
+.menu:hover p {color:orange;}
+.social-network {margin-right: 5%;}
+.social-network i {  display: inline;
+  margin: 0 0.125em;
+  padding: 0;
+  vertical-align: baseline;}
+.logo {height: 100%;}
+.logo img {background-image 
+	background-size: cover; height: 15vh; width: 15vw; background-repeat: no-repeat; background-position: center;}
+
+.part {display: flex; flex-direction: column;}
+.header{ display: flex;  background: linear-gradient(to bottom,#1c2d56 0%, #1c2d56 40% ,white 40%, white 100%); }
+.header .part1 {width:50%; display: flex; flex-direction: column;}
+.header .part1 .first {/*background-color: black;*/ margin-left: 8%;}
+.header .part1 h1 {color:white; margin-left: 8%; margin-top: 20%; font-size: 40px; font-family: 'Barlow Condensed';}
+.header .part1 .second{/*background-color: white;*/margin-left: 15% ;margin-top:10%;}
+.header .part1 .second h6 {color:blue;}
+.header .part1 .second h5 {color: #064975; font-size: 18px;}
+.header .image img {height: 100%; width: 100%;}
+.header .image img {background-size: cover; height: auto; width:80%;  background-repeat: no-repeat; background-position: center;
+	margin-right: 8%; margin-top: 20%;
+  -webkit-clip-path:polygon(0 0, 70% 0%, 100% 30%, 100% 100%, 100% 100%, 30% 100%, 0% 70%, 0 0);
+    clip-path: polygon(0 0, 70% 0%, 100% 30%, 100% 100%, 100% 100%, 30% 100%, 0% 70%, 0 0);
+}
+
+
+.flex-container {display: flex;background-color: white; margin-right: 8%; margin-bottom: 5%;}
+.flex-container > div {background-color: white;font-size: 20px;}
+.flex-container .image1 { margin-left: 5%; margin-top: -8%; background-image: url(bluetorange.jpg); background-size: cover; height: 80vh; width: 10vw; background-repeat: no-repeat; 
+  -webkit-clip-path:polygon(0 0, 100% 29%, 100% 100%, 0 73%); 
+	background-position: center;  clip-path: polygon(0 0, 100% 29%, 100% 100%, 0 73%); }
+.flex-container .text .mediapart {display: none;}
+.flex-container .text p{color: #064975; font-size: 15px; margin-top: 5%; font-weight: bold; } 
+.explore {display: flex; flex-direction: column;}
+.b {display: flex; flex-direction: column;}
+.explore h3 {font-size: 25px;font-family:'Barlow Condensed';} 
+.buttons {display: flex;flex-direction: column;width: 80%;}
+.button {border:1px solid #fcad26;border-radius: 10px;color: #fff;background-color: #fcad26;padding: 15px 20px;margin:20px 10px;text-align: left;
+text-decoration: none;display: inline-block;font-size: 14px;cursor: pointer;transition: all 0.3s;}
+.button:hover {background-color: #fff;color: #fcad26;}
+.button.icon1 i {padding-left: 52%;}
+.button.icon2 i {padding-left: 63%;}
+.button.icon3 i {padding-left: 32%;}
+.button.icon4 i {padding-left: 56%;}
+
+.line hr { height: 1px;background-image: linear-gradient(to right, #1c2d56 , #f5ad25);}
+
+.part3 {margin-left: 10%;margin-right: 8%; position: relative;}
+.middle {display: flex; flex-direction: column;}
+.resources {display: flex;margin-top: 5%; position: relative;}
+.resources .header3 {margin-right: 15%;}
+.resources .header3 h1 {font-family:'Barlow Condensed'; font-size: 50px; }
+.resources .header4 {margin-top: 2%;}
+.resources .header4 h3 {font-family:'Barlow Condensed'; font-size: 25px;}
+.middle1 {display: flex; position: relative;}
+.middle1 .text1 h5 {color: blue; font-size : 15px;}
+.middle1 .text1 h6 {color: #064975; font-size: 15px;}
+.middle1 .greypart {display: flex; flex-direction: column;  margin-left: 10%; padding-left: 4%; padding-bottom: 1%;}
+.middle1  .greypart .grey1 {background:#f5f4f4;background: linear-gradient(135deg, transparent 40px, #f5f4f4 0) top left, linear-gradient(0deg, transparent 0px, #f5f4f4 0) top right, linear-gradient(0deg, transparent 0px, #f5f4f4 0) bottom left, linear-gradient(-45deg, transparent 40px, #f5f4f4 0) bottom right;
+background-size: 51% 51%;
+background-repeat: no-repeat; 
+height:40%; width: 120%; margin-left: 10%; padding-left: 4%; padding-bottom: 1%; position: relative; }
+.middle1 .greypart .grey1 h4 {font-family:'Barlow Condensed'; margin-left: 5%; font-size: 25px;}
+.middle1 .greypart .grey1 .line {margin-left: 5%; margin-top: -5%; }
+.middle1 .greypart .grey1 h6 {color:#064975; margin-left: 5%; font-size: 15px; margin-top: 1%;}
+.middle1 .greypart .grey1 a {position: absolute;margin-top: 5%;right: 20px;}
+.icon6 i {padding-left: 80px;}
+.middle1  .greypart .grey2 {background:#f5f4f4;background: linear-gradient(135deg, transparent 40px, #f5f4f4 0) top left, linear-gradient(0deg, transparent 0px, #f5f4f4 0) top right, linear-gradient(0deg, transparent 0px, #f5f4f4 0) bottom left, linear-gradient(-45deg, transparent 40px, #f5f4f4 0) bottom right;
+background-size: 51% 51%;
+background-repeat: no-repeat; 
+height:140%; width: 120%; margin-left: 10%; padding-left: 4%; margin-top: 20%; padding-bottom: 1%; position: relative;}
+.middle1  .greypart .grey2  h4 {font-family:'Barlow Condensed'; margin-left: 5%; font-size: 25px;}
+.middle1  .greypart .grey2 .line {margin-left: 5%; margin-top: -5%;}
+.middle1  .greypart .grey2 h6 {color:#064975; margin-left: 5%; font-size: 15px; margin-top:1%;}
+.middle1 .greypart .grey2 a {position: absolute; right: 20px;margin-top: 5%;}
+
+
+.part4 {margin-left: 10%;margin-right: 8%; position: relative;
+	display: flex; flex-direction: column; margin-top: 0%;}
+.part4 .image2 img { margin-top: 10%;background-size: cover; height: 75vh; width: 75vw; background-repeat: no-repeat; 
+  -webkit-clip-path:polygon(30% 0%, 100% 0, 100% 0, 100% 100%, 100% 100%, 0 100%, 0 100%, 0% 30%); 
+	background-position: center;  clip-path: polygon(30% 0%, 100% 0, 100% 0, 100% 100%, 100% 100%, 0 100%, 0 100%, 0% 30%); }
+#img {margin-left: -5%; margin-top: -50%; opacity: 0.6;background-size: cover; height: 80vh; width: 10vw; background-repeat: no-repeat; 
+  -webkit-clip-path:polygon(99% 0, 50% 0, 100% 0, 100% 53%, 100% 68%, 0 100%, 0 100%, 0 34%); 
+	background-position: center;  clip-path: polygon(99% 0, 50% 0, 100% 0, 100% 53%, 100% 68%, 0 100%, 0 100%, 0 34%); }
+
+.part4 .program {margin-bottom: 5%;}
+.part4 .program h5 {color: blue;}
+.part4 .program h6 {color: #064975; font-size: 12px;}
+
+.part5 {margin-left: 10%;margin-right: 8%; position: relative; display: flex; flex-direction: column;}
+.part5 .titleresources {display: flex;margin-top: 5%; position: relative;}}
+.part5 .titleresources .header3{margin-right: 15%;}
+.part5 .titleresources .header3 h1 {font-family:'Barlow Condensed'; font-size: 50px;}
+.part5 .titleresources .header4 {margin-top: 2%; margin-left: 15%;}
+.part5 .titleresources .header4 h3 {font-family:'Barlow Condensed'; font-size: 25px;}
+
+.flex-part {display: flex; flex-direction: column;}
+.flex-container {position: relative; flex-basis: auto;}
+.flex-container > div {
+	margin-right:3%;
+}
+.flex-container .grey2 {background:#f5f4f4;background: linear-gradient(135deg, transparent 40px, #f5f4f4 0) top left,
+ linear-gradient(0deg, transparent 0px, #f5f4f4 0) top right, 
+ linear-gradient(0deg, transparent 0px, #f5f4f4 0) bottom left,
+ linear-gradient(-45deg, transparent 40px, #f5f4f4 0) bottom right;
+background-size: 51% 51%;
+background-repeat: no-repeat;
+height:15%; width: 60%; padding-left: 4%; padding-bottom: 4%; position: relative;}
+.flex-container .grey2 h4 {font-family:'Barlow Condensed'; margin-left: 5%; font-size: 20px;}
+.flex-container .grey2 h6 {color:#064975; margin-left: 5%; font-size: 15px; margin-top: -1%; margin-bottom: 5%;}
+.flex-container .grey2 a {position: absolute; margin-top: 40px; right: 50px;}
+.icon7 i {padding-left: 50px;}
+
+.flex-row {display: flex; margin-top: 15%; margin-left: -14%;}
+.flex-row .image3 {margin-left: 5%; margin-top: -8%; background-image: url(bluetorange.jpg); opacity: 0.6; background-size: cover; height: 80vh; width: 10vw; background-repeat: no-repeat; 
+ -webkit-clip-path:polygon(99% 0, 50% 0, 100% 0, 100% 53%, 100% 68%, 0 100%, 0 100%, 0 34%); 
+	background-position: center;  clip-path: polygon(99% 0, 50% 0, 100% 0, 100% 53%, 100% 68%, 0 100%, 0 100%, 0 34%); }
+.flex-row  .image4 {margin-left: -5%; margin-top: -4%; background-image: url(header3.jpg);background-size: cover; height: 60vh; width: 40vw; background-repeat: no-repeat; 
+background-position: center;  -webkit-clip-path: polygon(30% 0%, 100% 0, 100% 0, 100% 70%, 70% 100%, 0 100%, 0 100%, 0% 30%); 
+clip-path: polygon(30% 0%, 100% 0, 100% 0, 100% 70%, 70% 100%, 0 100%, 0 100%, 0% 30%);
+}
+.flex-row .morestate {display: flex; flex-direction: column; margin-right: -15%; margin-left: 10%; margin-top: -5%; width: 40%; height: 40%;}
+.flex-row .morestate .grey3 {background:#f5f4f4;background: linear-gradient(135deg, transparent 40px, #f5f4f4 0) top left,
+ linear-gradient(0deg, transparent 0px, #f5f4f4 0) top right, 
+ linear-gradient(0deg, transparent 0px, #f5f4f4 0) bottom left,
+ linear-gradient(-45deg, transparent 40px, #f5f4f4 0) bottom right;
+background-size: 51% 51%;
+background-repeat: no-repeat;
+height:60%; width: 60%; padding-left: 4%; padding-bottom: 4%; position: relative; margin-bottom: 15%;}
+.flex-row .morestate .grey3 h4 {font-family:'Barlow Condensed'; margin-left: 5%; font-size: 20px;}
+.flex-row .morestate .grey3 h6 {color:#064975; margin-left: 5%; font-size: 15px; margin-top: -1%; margin-bottom: 5%;}
+.flex-row .morestate .grey3 a {position: absolute; margin-top: 40px; right: 50px;}
+.flex-row .icon8 i {padding-left: 20px;}
+
+
+.part6 {margin-left: 10%;margin-right: 8%; display: flex; flex-direction: column;}
+
+.operationalresources {display: flex;}
+.operationalresources.header3 {margin-right: 15%;}
+.operationalresources .header3 h1 {font-family:'Barlow Condensed'; font-size: 50px; }
+.operationalresources .header4 {margin-top: 2%; margin-left: 10%;}
+.operationalresources .header4 h3 {font-family:'Barlow Condensed'; font-size: 25px;}
+
+.google {display:flex;}
+.google .picture1 {margin-right: 15%; background:#f5f4f4;background: linear-gradient(135deg, transparent 40px, #f5f4f4 0) top left,
+ linear-gradient(0deg, transparent 0px, #f5f4f4 0) top right, 
+ linear-gradient(0deg, transparent 0px, #f5f4f4 0) bottom left,
+ linear-gradient(-45deg, transparent 40px, #f5f4f4 0) bottom right;
+background-size: 51% 51%;
+background-repeat: no-repeat;
+height:20%; width: 30%; padding-left: 4%; padding-top: 4%; padding-bottom: 4%; position: relative; margin-bottom: 5%; display: flex;}
+.google .picture1 img{background-size: cover; height: 10vh; width: 10vw; background-repeat: no-repeat; margin-left: 10%;}
+.google .picture1 .arrow {height: 5vh; width: 5vw; margin-top: 5%; margin-left: 10%;}
+.google .googletext {margin-left: 2%; }
+.google .googletext h4 {font-family:'Barlow Condensed'; font-size: 20px;}
+.google .googletext h6 {color:#064975;}
+
+.facebook {display: flex; flex-direction: row;/* margin-bottom: 5%;*/}
+.facebook .picture2 {background:#f5f4f4;background: linear-gradient(135deg, transparent 40px, #f5f4f4 0) top left,
+ linear-gradient(0deg, transparent 0px, #f5f4f4 0) top right, 
+ linear-gradient(0deg, transparent 0px, #f5f4f4 0) bottom left,
+ linear-gradient(-45deg, transparent 40px, #f5f4f4 0) bottom right;
+background-size: 51% 51%;
+background-repeat: no-repeat;
+height:80%; width: 30%; padding-left: 4%; padding-bottom: 4%; padding-top: 4%; position: relative; margin-bottom: 15%; display: flex;}
+.facebook .picture2 img {background-size: cover; height: 10vh; width: 10vw; background-repeat: no-repeat;margin-left: 10%;}
+.facebook .picture2 .arrow {height: 5vh; width: 5vw; margin-top: 5%; margin-left: 10%;}
+.facebook .facebooktext {margin-left: 17%;}
+.facebook .facebooktext h4 {font-family:'Barlow Condensed'; font-size: 20px;}
+.facebook .facebooktext h6 {color:#064975;}
+
+.part7 {margin-left: 10%; position: relative;}
+.healthresources {display: flex; flex-direction: column; /*position: relative;*/ background-color: red;}
+.healthresources .header3 {margin-right: 5%;}
+.healthresources .header3 h1 {font-family:'Barlow Condensed'; font-size: 50px; }
+.healthresources .header4 {margin-top: -5%;}
+.healthresources .header4 h3 {font-family:'Barlow Condensed'; font-size: 25px;}
+.healthresources .header5 h5 {color:#064975;}
+.healthresources .line {/*margin-top: 30%; width: 300%;*/width: 80%; position: absolute;
+  max-width: 100%;
+  margin-top: 550px;} 
+
+.healthresourcesimage{margin-left: 10%;}
+.healthresourcesimage img {background-size:cover; height: auto; width:120vh; margin-top: 5%;background-repeat: no-repeat; 
+ -webkit-clip-path:polygon(75% 0, 100% 15%, 100% 60%, 100% 100%, 15% 100%, 0 75%, 0 0);
+clip-path: polygon(75% 0, 100% 15%, 100% 60%, 100% 100%, 15% 100%, 0 75%, 0 0);}
+.healthresourcesimage2 img {margin-left: -85%; opacity: 0.6;background-size: cover; height: 80vh; width: 10vw; background-repeat: no-repeat; 
+  -webkit-clip-path:polygon(0 0, 0 0, 100% 26%, 100% 100%, 0 76%, 0 100%, 0 100%, 0 0); 
+	background-position: center;  clip-path: polygon(0 0, 0 0, 100% 26%, 100% 100%, 0 76%, 0 100%, 0 100%, 0 0);}
+
+
+.part8 {margin-left: 10%;margin-right: 8%; display: flex; flex-direction: column; margin-bottom:5%;}
+.headerdisclaimer {margin-right: 15%;}
+.headerdisclaimer h1 {font-family:'Barlow Condensed';font-size: 60px; color:#ececec;}
+.disclaimer {margin-top: 2%;}
+.disclaimer h6 {font-family:'Barlow Condensed';font-size: 20px;color:#064975;}
+
+.footer {background-color: #1c2d56; background-image:url(footer.jpg); 
+ background-size: cover; height: 70%; width: 100%; background-repeat: no-repeat; 
+background-position: center;text-align:center;padding-top:50px ; display: flex;}
+
+.footer .aboutus {display: flex;flex-direction: column; margin-left: 20%; text-align: left;}
+.footer .aboutus h3 {color: white;}
+.footer .info {display: flex;flex-direction: column; margin-left: 3%; margin-top: -1%; text-align: left;}
+.footer .info h3 {color:white;}
+.footer .info  i { color: orange; padding-right: 2%; display: inline;
+  margin: 0 0.125em;
+  padding: 0 1em;
+  vertical-align: baseline;}
+.footer .h {display: flex; flex-direction: column; margin-left: 5%; margin-right: 10%; margin-top: -1%; text-align: left;}
+.footer .h h1 {color: white; font-family:'Barlow Condensed'; }
+.footer .h h5 {color: orange;}
+.footer .h i {color: blue;}
+
+
+.footer .linkedin {margin-top: 1%;}
+.footer .linkedin h4 {color: white;}
+.footer .linkedin i {color: white; margin-left: 10%; display: inline;
+  margin: 0 0.125em;
+  padding: 0;
+  vertical-align: baseline;}
+
+ .bottom {background-color: #1c2d56; margin-top: -5%; height: 10%;}
+ .bottom .centar  {}
+ .bottom .centar p{text-align: center;}
+
+@media (max-width: 769px) {
+
+.navbar {margin-top: -10%;}
+.menu {background-image: linear-gradient(to right, #1c2d56 , #f5ad25); opacity: 0.6; height: 100%;   -webkit-clip-path:polygon(100% 0, 100% 0, 100% 75%, 75% 100%, 0 100%, 0 100%, 0 0); 
+	background-position: center;  clip-path: polygon(100% 0, 100% 0, 100% 75%, 75% 100%, 0 100%, 0 100%, 0 0);}
+.logo img {background-size: cover; height: 30vh; width: 30vw; background-repeat: no-repeat; background-position: left; margin-left: 10%;}
+.social-network {visibility:hidden;}
+br {display: none;}
+.part .header {display: flex; flex-direction: column;}
+.part .flex-container {flex-direction: column;}
+.part .flex-container .image1 {display: none;}
+.header .part1 .second {display: none;}
+.flex-container .text .mediapart {display: unset; margin-left: 10%; padding-left: 10%;}
+.flex-container .text .mediapart h6 {color:blue; font-size: 25px;}
+.flex-container .text .mediapart h5 {color: #064975; font-size: 25px;}
+.flex-container .text {order: 2; margin-left: 10%;}
+.flex-container .text p {margin-left: 0%; font-size: 20px;}
+.flex-container .explore {order: 1; margin-left: 10%;}
+.header .part1 h1 {font-size: 50px;}
+.header .image img {margin-left: 10%; margin-top: 2%;}
+.button.icon1 i {padding-left: 80%;}
+.button.icon2 i {padding-left: 83%;}
+.button.icon3 i {padding-left: 72%;}
+.button.icon4 i {padding-left: 80%;}
+
+.resources {flex-direction: column;}
+.resources .header4 h3 {font-size: 35px;}
+.middle1 {flex-direction: column;}
+.middle1 .text1 h5 {font-size: 25px;}
+.middle1 .text1 h6 {font-size: 20px;}
+.middle1 .greypart {margin-left: -15%; margin-top: 10%; margin-right: 30%;}
+.middle1 .greypart .grey2 h6 br {display: unset;}
+
+.part4 {display: none;}
+.part5{ margin-top: 10%; }
+.part5 .titleresources {flex-direction: column;}
+.part5 .titleresources .header4 {margin-left: 0%; margin-bottom: 10%;}
+.part5 .titleresources .header4 h3 {font-size: 40px;}
+.part5 .flex-container {flex-direction: column;}
+.part5 .flex-container > div {
+	margin-right:0%;
+	margin-left: 10%;
+	margin-bottom: 20%;
+}
+
+.part5 .flex-row {flex-direction: column; margin-left: 2%;}
+.part5 .flex-row  .image4 {margin-left: 12%; margin-top: -90%; width: 80%;}
+.part5 .flex-row .morestate {margin-top: 10%;width: 80%; height: 80%;}
+.flex-row .morestate .grey3 {width: 100%; height: 100%;}
+.flex-container .grey2 {width: 80%; height: 100%;}
+
+.operationalresources {flex-direction: column;}
+.operationalresources .header4 {margin-left: 0%;}
+.operationalresources .header4 h3 {font-size: 30px;}
+.google {flex-direction: column;}
+.google .picture1 {height:100%; width: 95%;}
+.google .picture1 img{height: 20vh; width: 20vw;margin-left: 10%;}
+.google .picture1 .arrow {height: 10vh; width: 10vw; margin-top: 5%; margin-left: 30%;}
+.google .googletext h4 {font-size: 30px;}
+.google .googletext h6 {font-size: 30px;}
+.facebook {flex-direction: column;}
+.facebook .picture2 {height: 100%; width: 95%;}
+.facebook .picture2 img {height: 20vh; width: 20vw;}
+.facebook .picture2 .arrow {height: 10vh; width: 10vw; margin-left: 30%;}
+
+.facebook .facebooktext {margin-left: 2%;}
+.facebook .facebooktext h4 {font-size: 30px;}
+.facebook .facebooktext h6 {font-size: 30px;}
+
+.part7 .flex-container {flex-direction: column;}
+.healthresources .header5 h5 {font-size: 24px;}
+.healthresources a {margin-left: 0%;}
+.healthresources .line {margin-top: 980px; width: 100%;}
+.healthresourcesimage {margin-left: 0%; margin-top: 0%; }
+.healthresourcesimage img {height: 70vh; width:70vh; padding-top: 10%;}
+.healthresourcesimage2 img {margin-left: 90%; opacity: 0.6;height: 60vh; width: 20vw; margin-top: -140%;}
+
+.disclaimer h6 {font-size: 30px;}
+
+.footer {flex-direction: column;}
+.footer br {display: unset;}
+.footer .aboutus {display: none;}
+.footer .h h5 {display: none;}
+.footer .h i {display: none;}
+.footer .linkedin {margin-top: -13%; margin-left: 60%;}
+.footer .linkedin h4 {color: white; font-size: 20px;}
+.footer .linkedin i {color: white; margin-left: 10%; display: inline;
+  margin: 0 0.125em;
+  padding: 0;
+  vertical-align: baseline;}
+
+
+
+}
+
